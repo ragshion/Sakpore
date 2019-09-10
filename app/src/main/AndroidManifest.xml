@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ragshion.sakpore">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">k
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+        <activity android:name=".activities.MainActivity"/>
+
+        <activity
+            android:name=".activities.SplashscreenActivity"
+            android:theme="@style/AppFullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.DataActivity"/>
+        <activity android:name=".activities.DetailActivity"/>
+        <activity android:name=".activities.LiveSearchActivity"/>
+        <activity android:name=".activities.TentangActivity"/>
+
+    </application>
+
+</manifest>

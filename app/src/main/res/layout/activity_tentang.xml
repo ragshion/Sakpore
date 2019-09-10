@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_horizontal">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:src="@drawable/ic_launcher"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAKPORE"
+                android:textColor="@color/colorTextDefault"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginRight="24dp"
+                android:layout_marginLeft="24dp"
+                android:textAlignment="center"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAKPORE adalah Sistem Aplikasi Kewirausahaan Prospektif dengan Orientasi Revolusi 4.0. Sakpore merupakan startup sekaligus wahana pembelajaran peserta didik berupa perniagaan online yang bergerak di bidang kuliner, jejamu dan keperluan rumah tangga di SMK Negeri 2 Pekalongan."
+                android:textSize="14sp"
+                android:textColor="@color/colorTextDefault"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

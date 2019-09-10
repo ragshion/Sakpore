@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SAKPORE</string>
+    <string name="app_name_long">sakpore</string>
+    <string name="pathfoto">http://pedagangbali.untungsupriyono.web.id/</string>
+    <string name="pathcarousel">http://pedagangbali.untungsupriyono.web.id/</string>
+    <!--<string name="pathfoto">http://192.168.1.188/bts/assets/foto-ats/</string>-->
+    <string name="berhasil">Selamat Anda Berhasil Memesan Barang yang anda pilih,
+silahkan Transfer sejumlah uang ke Bank BNI Cabang Pekalongan dengan No Rekening 0709918798 an. Untung Supriyono</string>
+
+    <string name="facebook_app_id">2209471329110181</string>
+    <string name="fb_login_protocol_scheme">fb2209471329110181</string>
+
+    <string name="selected_place_info">Selected location information:\n%1$s</string>
+    <string name="go_to_picker_activity">Go to place picker activity</string>
+
+    <string name="access_token" translatable="false">pk.eyJ1IjoicmFnc2hpb24iLCJhIjoiY2p1dW80YnNrMDVneDQ0cGZhM2dqdGgweiJ9.4ONPIGdYTaS9BEQc1xa5iQ</string>
+    <string name="title_activity_maps">Pilih Titik Koordinat Lokasi</string>
+
+
+</resources>
